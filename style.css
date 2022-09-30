@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+
+body{
+  background-image:url(background.png);
+  background-size: 100%;
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  margin: 5%;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px 50px;
+}
+
+header, nav{text-align: center;}
+header > img{width: 20%}
+header{padding-top: 3%;
+  color: lime;
+}
+
+nav{background-color: lime;
+  margin: 0% 10%;
+  padding: 6px;
+  border-radius: 5px 5px;
+}
+
+main{padding: 0% 10% 5%;}
+input[type="checkbox"], h3{display: inline-block;}
+h3{margin-bottom: 0;}
+div > span{display: block;}
+
+.carica{display:block;}
+
+.uno{width: 33%;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px 5px;
+}
+
+.due{width: 60%;
+  height: 30px;
+  background-color: rgb(21, 209, 0);
+  border-radius: 5px 5px;
+}
+
+.tre{width: 15%;
+  height: 30px;
+  background-color: rgb(194, 37, 37);
+  border-radius: 5px 5px;
+}
